@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		398C1A95FDCA40D8FB4BC16C /* Pods_TLCorePod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA2204029EC4C11EFFE7E3E /* Pods_TLCorePod_Tests.framework */; };
-		5592E82021FF18D65D4A5D80 /* Pods_TLCorePod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661F1DA2F99EC07756667EBE /* Pods_TLCorePod_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8F223E2A2B5FE61200FDC43A /* Pods_TLCorePod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661F1DA2F99EC07756667EBE /* Pods_TLCorePod_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C3290B26F2C94E1B5325A75 /* TLCorePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TLCorePod.podspec; path = ../TLCorePod.podspec; sourceTree = "<group>"; };
+		0C3290B26F2C94E1B5325A75 /* TLCorePod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLCorePod.podspec; path = ../TLCorePod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1EA2204029EC4C11EFFE7E3E /* Pods_TLCorePod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLCorePod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		223C997E4BB0DF6AF29882F7 /* Pods-TLCorePod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLCorePod_Example.release.xcconfig"; path = "Target Support Files/Pods-TLCorePod_Example/Pods-TLCorePod_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TLCorePod_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLCorePod_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,9 +42,58 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		661F1DA2F99EC07756667EBE /* Pods_TLCorePod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLCorePod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69367C5EB5EA435AA06DACE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		69367C5EB5EA435AA06DACE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6E10DAFC0F63E4C2C871317C /* Pods-TLCorePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLCorePod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TLCorePod_Tests/Pods-TLCorePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A66E289F6702EEED9320C5E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8F223D992B5FBD5300FDC43A /* abcTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abcTest.swift; sourceTree = "<group>"; };
+		8F223E222B5FCBB900FDC43A /* KeyStoreError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStoreError.swift; sourceTree = "<group>"; };
+		8F223E232B5FCBB900FDC43A /* Base58String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base58String.swift; sourceTree = "<group>"; };
+		8F223E242B5FCBB900FDC43A /* AddressString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressString.swift; sourceTree = "<group>"; };
+		8F223E262B5FCBB900FDC43A /* StringTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTool.swift; sourceTree = "<group>"; };
+		8F223E272B5FCBB900FDC43A /* DataTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTool.swift; sourceTree = "<group>"; };
+		8F223E282B5FCBBA00FDC43A /* TLWalletCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLWalletCore.swift; sourceTree = "<group>"; };
+		8F50CD4C2B60C08400AA85D9 /* Discover.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Discover.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD4E2B60C08400AA85D9 /* VoteAssetContract.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoteAssetContract.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD4F2B60C08400AA85D9 /* ShieldContract.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShieldContract.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD502B60C08400AA85D9 /* AssetIssueContract.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssetIssueContract.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD512B60C08400AA85D9 /* Common.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD522B60C08400AA85D9 /* MarketContract.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketContract.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD532B60C08400AA85D9 /* BalanceContract.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BalanceContract.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD542B60C08400AA85D9 /* ExchangeContract.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExchangeContract.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD552B60C08400AA85D9 /* ProposalContract.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProposalContract.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD562B60C08400AA85D9 /* SmartContract.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartContract.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD572B60C08400AA85D9 /* StorageContract.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StorageContract.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD582B60C08400AA85D9 /* AccountContract.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountContract.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD592B60C08400AA85D9 /* WitnessContract.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WitnessContract.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD5A2B60C08400AA85D9 /* AssetIssueContract.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssetIssueContract.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD5B2B60C08400AA85D9 /* ShieldContract.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShieldContract.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD5C2B60C08400AA85D9 /* VoteAssetContract.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoteAssetContract.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD5D2B60C08400AA85D9 /* MarketContract.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketContract.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD5E2B60C08400AA85D9 /* Common.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Common.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD5F2B60C08400AA85D9 /* ExchangeContract.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExchangeContract.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD602B60C08400AA85D9 /* BalanceContract.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalanceContract.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD612B60C08400AA85D9 /* WitnessContract.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WitnessContract.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD622B60C08400AA85D9 /* AccountContract.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountContract.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD632B60C08400AA85D9 /* StorageContract.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StorageContract.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD642B60C08400AA85D9 /* SmartContract.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartContract.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD652B60C08400AA85D9 /* ProposalContract.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProposalContract.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD662B60C08400AA85D9 /* Tron.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tron.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD672B60C08400AA85D9 /* TronInventoryItems.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TronInventoryItems.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD682B60C08400AA85D9 /* Discover.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Discover.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD692B60C08400AA85D9 /* Tron.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tron.pbobjc.m; sourceTree = "<group>"; };
+		8F50CD6A2B60C08400AA85D9 /* TronInventoryItems.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TronInventoryItems.pbobjc.h; sourceTree = "<group>"; };
+		8F50CD6B2B60C08400AA85D9 /* Api.pbrpc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Api.pbrpc.m; sourceTree = "<group>"; };
+		8F50CDC12B60C08400AA85D9 /* Annotations.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Annotations.pbobjc.h; sourceTree = "<group>"; };
+		8F50CDC22B60C08400AA85D9 /* HTTP.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTTP.pbobjc.h; sourceTree = "<group>"; };
+		8F50CDC32B60C08400AA85D9 /* HTTP.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTTP.pbobjc.m; sourceTree = "<group>"; };
+		8F50CDC42B60C08400AA85D9 /* Annotations.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Annotations.pbobjc.m; sourceTree = "<group>"; };
+		8F50CDC62B60C08400AA85D9 /* Descriptor.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Descriptor.pbobjc.h; sourceTree = "<group>"; };
+		8F50CDC72B60C08400AA85D9 /* Descriptor.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Descriptor.pbobjc.m; sourceTree = "<group>"; };
+		8F50CDC82B60C08400AA85D9 /* Api.pbrpc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Api.pbrpc.h; sourceTree = "<group>"; };
+		8F50CDCA2B60C08400AA85D9 /* Api.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Api.pbobjc.h; sourceTree = "<group>"; };
+		8F50CDCB2B60C08400AA85D9 /* Zksnark.pbobjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zksnark.pbobjc.h; sourceTree = "<group>"; };
+		8F50CDCC2B60C08400AA85D9 /* Api.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Api.pbobjc.m; sourceTree = "<group>"; };
+		8F50CDCD2B60C08400AA85D9 /* Zksnark.pbobjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Zksnark.pbobjc.m; sourceTree = "<group>"; };
+		A66E289F6702EEED9320C5E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CB30F75E60DB4C5AF1736AE3 /* Pods-TLCorePod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLCorePod_Example.debug.xcconfig"; path = "Target Support Files/Pods-TLCorePod_Example/Pods-TLCorePod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EA82CBB53F7014507B64A0B8 /* Pods-TLCorePod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLCorePod_Tests.release.xcconfig"; path = "Target Support Files/Pods-TLCorePod_Tests/Pods-TLCorePod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5592E82021FF18D65D4A5D80 /* Pods_TLCorePod_Example.framework in Frameworks */,
+				8F223E2A2B5FE61200FDC43A /* Pods_TLCorePod_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +142,7 @@
 		607FACD21AFB9204008FA782 /* Example for TLCorePod */ = {
 			isa = PBXGroup;
 			children = (
+				8F223D902B5FBA8200FDC43A /* TLCorePod */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -139,6 +189,151 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8F223D902B5FBA8200FDC43A /* TLCorePod */ = {
+			isa = PBXGroup;
+			children = (
+				8F223D912B5FBA8200FDC43A /* Classes */,
+				8F223D942B5FBA8200FDC43A /* Assets */,
+			);
+			name = TLCorePod;
+			path = ../../TLCorePod;
+			sourceTree = "<group>";
+		};
+		8F223D912B5FBA8200FDC43A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F50CD4A2B60C08400AA85D9 /* gRPC */,
+				8F223E282B5FCBBA00FDC43A /* TLWalletCore.swift */,
+				8F223E252B5FCBB900FDC43A /* Tool */,
+				8F223E212B5FCBB900FDC43A /* types */,
+				8F223D992B5FBD5300FDC43A /* abcTest.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8F223D942B5FBA8200FDC43A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		8F223E212B5FCBB900FDC43A /* types */ = {
+			isa = PBXGroup;
+			children = (
+				8F223E222B5FCBB900FDC43A /* KeyStoreError.swift */,
+				8F223E232B5FCBB900FDC43A /* Base58String.swift */,
+				8F223E242B5FCBB900FDC43A /* AddressString.swift */,
+			);
+			path = types;
+			sourceTree = "<group>";
+		};
+		8F223E252B5FCBB900FDC43A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8F223E262B5FCBB900FDC43A /* StringTool.swift */,
+				8F223E272B5FCBB900FDC43A /* DataTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8F50CD4A2B60C08400AA85D9 /* gRPC */ = {
+			isa = PBXGroup;
+			children = (
+				8F50CD4B2B60C08400AA85D9 /* core */,
+				8F50CD6B2B60C08400AA85D9 /* Api.pbrpc.m */,
+				8F50CDBF2B60C08400AA85D9 /* google */,
+				8F50CDC82B60C08400AA85D9 /* Api.pbrpc.h */,
+				8F50CDC92B60C08400AA85D9 /* api */,
+			);
+			path = gRPC;
+			sourceTree = "<group>";
+		};
+		8F50CD4B2B60C08400AA85D9 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				8F50CD4C2B60C08400AA85D9 /* Discover.pbobjc.h */,
+				8F50CD4D2B60C08400AA85D9 /* contract */,
+				8F50CD662B60C08400AA85D9 /* Tron.pbobjc.h */,
+				8F50CD672B60C08400AA85D9 /* TronInventoryItems.pbobjc.m */,
+				8F50CD682B60C08400AA85D9 /* Discover.pbobjc.m */,
+				8F50CD692B60C08400AA85D9 /* Tron.pbobjc.m */,
+				8F50CD6A2B60C08400AA85D9 /* TronInventoryItems.pbobjc.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		8F50CD4D2B60C08400AA85D9 /* contract */ = {
+			isa = PBXGroup;
+			children = (
+				8F50CD4E2B60C08400AA85D9 /* VoteAssetContract.pbobjc.m */,
+				8F50CD4F2B60C08400AA85D9 /* ShieldContract.pbobjc.h */,
+				8F50CD502B60C08400AA85D9 /* AssetIssueContract.pbobjc.m */,
+				8F50CD512B60C08400AA85D9 /* Common.pbobjc.h */,
+				8F50CD522B60C08400AA85D9 /* MarketContract.pbobjc.m */,
+				8F50CD532B60C08400AA85D9 /* BalanceContract.pbobjc.m */,
+				8F50CD542B60C08400AA85D9 /* ExchangeContract.pbobjc.h */,
+				8F50CD552B60C08400AA85D9 /* ProposalContract.pbobjc.m */,
+				8F50CD562B60C08400AA85D9 /* SmartContract.pbobjc.m */,
+				8F50CD572B60C08400AA85D9 /* StorageContract.pbobjc.h */,
+				8F50CD582B60C08400AA85D9 /* AccountContract.pbobjc.m */,
+				8F50CD592B60C08400AA85D9 /* WitnessContract.pbobjc.m */,
+				8F50CD5A2B60C08400AA85D9 /* AssetIssueContract.pbobjc.h */,
+				8F50CD5B2B60C08400AA85D9 /* ShieldContract.pbobjc.m */,
+				8F50CD5C2B60C08400AA85D9 /* VoteAssetContract.pbobjc.h */,
+				8F50CD5D2B60C08400AA85D9 /* MarketContract.pbobjc.h */,
+				8F50CD5E2B60C08400AA85D9 /* Common.pbobjc.m */,
+				8F50CD5F2B60C08400AA85D9 /* ExchangeContract.pbobjc.m */,
+				8F50CD602B60C08400AA85D9 /* BalanceContract.pbobjc.h */,
+				8F50CD612B60C08400AA85D9 /* WitnessContract.pbobjc.h */,
+				8F50CD622B60C08400AA85D9 /* AccountContract.pbobjc.h */,
+				8F50CD632B60C08400AA85D9 /* StorageContract.pbobjc.m */,
+				8F50CD642B60C08400AA85D9 /* SmartContract.pbobjc.h */,
+				8F50CD652B60C08400AA85D9 /* ProposalContract.pbobjc.h */,
+			);
+			path = contract;
+			sourceTree = "<group>";
+		};
+		8F50CDBF2B60C08400AA85D9 /* google */ = {
+			isa = PBXGroup;
+			children = (
+				8F50CDC02B60C08400AA85D9 /* api */,
+				8F50CDC52B60C08400AA85D9 /* protobuf */,
+			);
+			path = google;
+			sourceTree = "<group>";
+		};
+		8F50CDC02B60C08400AA85D9 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				8F50CDC12B60C08400AA85D9 /* Annotations.pbobjc.h */,
+				8F50CDC22B60C08400AA85D9 /* HTTP.pbobjc.h */,
+				8F50CDC32B60C08400AA85D9 /* HTTP.pbobjc.m */,
+				8F50CDC42B60C08400AA85D9 /* Annotations.pbobjc.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		8F50CDC52B60C08400AA85D9 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				8F50CDC62B60C08400AA85D9 /* Descriptor.pbobjc.h */,
+				8F50CDC72B60C08400AA85D9 /* Descriptor.pbobjc.m */,
+			);
+			path = protobuf;
+			sourceTree = "<group>";
+		};
+		8F50CDC92B60C08400AA85D9 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				8F50CDCA2B60C08400AA85D9 /* Api.pbobjc.h */,
+				8F50CDCB2B60C08400AA85D9 /* Zksnark.pbobjc.h */,
+				8F50CDCC2B60C08400AA85D9 /* Api.pbobjc.m */,
+				8F50CDCD2B60C08400AA85D9 /* Zksnark.pbobjc.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
 		9713E04A771540AFAA2BAD3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +351,6 @@
 				6E10DAFC0F63E4C2C871317C /* Pods-TLCorePod_Tests.debug.xcconfig */,
 				EA82CBB53F7014507B64A0B8 /* Pods-TLCorePod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -171,7 +365,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				4D026AD15E814314682D0B17 /* [CP] Embed Pods Frameworks */,
+				8713E5135B803C5187425944 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,10 +408,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2GRA8Q4F9H;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 2GRA8Q4F9H;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +424,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -285,18 +482,54 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D026AD15E814314682D0B17 /* [CP] Embed Pods Frameworks */ = {
+		8713E5135B803C5187425944 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TLCorePod_Example/Pods-TLCorePod_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
 				"${BUILT_PRODUCTS_DIR}/TLCorePod/TLCorePod.framework",
+				"${BUILT_PRODUCTS_DIR}/TrezorCrypto/TrezorCrypto.framework",
+				"${BUILT_PRODUCTS_DIR}/TrustCore/TrustCore.framework",
+				"${BUILT_PRODUCTS_DIR}/TrustKeystore/TrustKeystore.framework",
+				"${BUILT_PRODUCTS_DIR}/abseil/absl.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/keccak.c/keccak.framework",
+				"${BUILT_PRODUCTS_DIR}/scrypt.c/scrypt.framework",
+				"${BUILT_PRODUCTS_DIR}/secp256k1.c/secp256k1.framework",
+				"${BUILT_PRODUCTS_DIR}/web3swift.pod/web3swift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TLCorePod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrezorCrypto.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrustCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrustKeystore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/absl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/keccak.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/scrypt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/web3swift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -438,7 +671,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -484,7 +717,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -497,13 +730,14 @@
 			baseConfigurationReference = CB30F75E60DB4C5AF1736AE3 /* Pods-TLCorePod_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2GRA8Q4F9H;
 				INFOPLIST_FILE = TLCorePod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -512,13 +746,14 @@
 			baseConfigurationReference = 223C997E4BB0DF6AF29882F7 /* Pods-TLCorePod_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2GRA8Q4F9H;
 				INFOPLIST_FILE = TLCorePod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -526,6 +761,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E10DAFC0F63E4C2C871317C /* Pods-TLCorePod_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2GRA8Q4F9H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -548,6 +784,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA82CBB53F7014507B64A0B8 /* Pods-TLCorePod_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 2GRA8Q4F9H;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

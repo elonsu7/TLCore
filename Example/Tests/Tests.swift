@@ -1,5 +1,5 @@
 import XCTest
-import TLCorePod
+//import TLCorePod
 
 class Tests: XCTestCase {
     
