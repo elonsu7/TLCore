@@ -44,7 +44,6 @@
 		661F1DA2F99EC07756667EBE /* Pods_TLCorePod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLCorePod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69367C5EB5EA435AA06DACE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6E10DAFC0F63E4C2C871317C /* Pods-TLCorePod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLCorePod_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TLCorePod_Tests/Pods-TLCorePod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8F223D992B5FBD5300FDC43A /* abcTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = abcTest.swift; sourceTree = "<group>"; };
 		8F223E222B5FCBB900FDC43A /* KeyStoreError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyStoreError.swift; sourceTree = "<group>"; };
 		8F223E232B5FCBB900FDC43A /* Base58String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base58String.swift; sourceTree = "<group>"; };
 		8F223E242B5FCBB900FDC43A /* AddressString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressString.swift; sourceTree = "<group>"; };
@@ -206,7 +205,6 @@
 				8F223E282B5FCBBA00FDC43A /* TLWalletCore.swift */,
 				8F223E252B5FCBB900FDC43A /* Tool */,
 				8F223E212B5FCBB900FDC43A /* types */,
-				8F223D992B5FBD5300FDC43A /* abcTest.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
